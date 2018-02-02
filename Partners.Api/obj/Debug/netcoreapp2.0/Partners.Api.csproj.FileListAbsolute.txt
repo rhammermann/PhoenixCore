@@ -16,7 +16,6 @@ C:\Code\phoenix_core_docker\Partners.Api\bin\Debug\netcoreapp2.0\Partners.Api.ru
 C:\Code\phoenix_core_docker\Partners.Api\bin\Debug\netcoreapp2.0\Partners.Api.runtimeconfig.dev.json
 C:\Code\phoenix_core_docker\Partners.Api\bin\Debug\netcoreapp2.0\Partners.Api.dll
 C:\Code\phoenix_core_docker\Partners.Api\bin\Debug\netcoreapp2.0\Partners.Api.pdb
-C:\Code\phoenix_core_docker\Partners.Api\obj\Debug\netcoreapp2.0\Partners.Api.csprojResolveAssemblyReference.cache
 C:\Code\phoenix_core_docker\Partners.Api\obj\Debug\netcoreapp2.0\Partners.Api.csproj.CoreCompileInputs.cache
 C:\Code\phoenix_core_docker\Partners.Api\obj\Debug\netcoreapp2.0\Partners.Api.AssemblyInfoInputs.cache
 C:\Code\phoenix_core_docker\Partners.Api\obj\Debug\netcoreapp2.0\Partners.Api.AssemblyInfo.cs

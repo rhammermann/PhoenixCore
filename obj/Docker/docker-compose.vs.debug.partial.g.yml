@@ -6,16 +6,15 @@ services:
     environment:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - NUGET_PACKAGES=C:\.nuget\packages
-      - NUGET_FALLBACK_PACKAGES=c:\.nuget\fallbackpackages
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_contracts.api$
     volumes:
       - C:\Code\phoenix_core_docker\Contracts.Api:C:\app
-      - C:\Users\rh\onecoremsvsmon\15.0.27130.2024:C:\remote_debugger:ro
-      - C:\Users\rh\.nuget\packages\:c:\.nuget\packages:ro
-      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:c:\.nuget\fallbackpackages:ro
+      - C:\Users\rh\onecoremsvsmon:C:\remote_debugger:ro
+#$nuget_volume_mapping_contracts.api$
     entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646
     labels:
       com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages  bin\\Debug\\netcoreapp2.0\\Contracts.Api.dll"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_contracts.api$ bin\\Debug\\netcoreapp2.0\\Contracts.Api.dll"
       com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
       com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
 
@@ -24,16 +23,15 @@ services:
     environment:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - NUGET_PACKAGES=C:\.nuget\packages
-      - NUGET_FALLBACK_PACKAGES=c:\.nuget\fallbackpackages
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_identity.api$
     volumes:
       - C:\Code\phoenix_core_docker\Identity.Api:C:\app
-      - C:\Users\rh\onecoremsvsmon\15.0.27130.2024:C:\remote_debugger:ro
-      - C:\Users\rh\.nuget\packages\:c:\.nuget\packages:ro
-      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:c:\.nuget\fallbackpackages:ro
+      - C:\Users\rh\onecoremsvsmon:C:\remote_debugger:ro
+#$nuget_volume_mapping_identity.api$
     entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646
     labels:
       com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages  bin\\Debug\\netcoreapp2.0\\Identity.Api.dll"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_identity.api$ bin\\Debug\\netcoreapp2.0\\Identity.Api.dll"
       com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
       com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
 
@@ -43,35 +41,15 @@ services:
     environment:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - NUGET_PACKAGES=C:\.nuget\packages
-      - NUGET_FALLBACK_PACKAGES=c:\.nuget\fallbackpackages
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_partners.api$
     volumes:
       - C:\Code\phoenix_core_docker\Partners.Api:C:\app
-      - C:\Users\rh\onecoremsvsmon\15.0.27130.2024:C:\remote_debugger:ro
-      - C:\Users\rh\.nuget\packages\:c:\.nuget\packages:ro
-      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:c:\.nuget\fallbackpackages:ro
+      - C:\Users\rh\onecoremsvsmon:C:\remote_debugger:ro
+#$nuget_volume_mapping_partners.api$
     entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646
     labels:
       com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages  bin\\Debug\\netcoreapp2.0\\Partners.Api.dll"
-      com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
-      com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
-
-
-  phoenix_core:
-    image: phoenix_core:dev
-    environment:
-      - DOTNET_USE_POLLING_FILE_WATCHER=1
-      - NUGET_PACKAGES=C:\.nuget\packages
-      - NUGET_FALLBACK_PACKAGES=c:\.nuget\fallbackpackages
-    volumes:
-      - C:\Code\phoenix_core_docker\phoenix_core:C:\app
-      - C:\Users\rh\onecoremsvsmon\15.0.27130.2024:C:\remote_debugger:ro
-      - C:\Users\rh\.nuget\packages\:c:\.nuget\packages:ro
-      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:c:\.nuget\fallbackpackages:ro
-    entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646
-    labels:
-      com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages  bin\\Debug\\netcoreapp2.0\\phoenix_core.dll"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_partners.api$ bin\\Debug\\netcoreapp2.0\\Partners.Api.dll"
       com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
       com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
 
@@ -81,16 +59,15 @@ services:
     environment:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - NUGET_PACKAGES=C:\.nuget\packages
-      - NUGET_FALLBACK_PACKAGES=c:\.nuget\fallbackpackages
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_phoenix_core_web$
     volumes:
       - C:\Code\phoenix_core_docker\phoenix_core_web:C:\app
-      - C:\Users\rh\onecoremsvsmon\15.0.27130.2024:C:\remote_debugger:ro
-      - C:\Users\rh\.nuget\packages\:c:\.nuget\packages:ro
-      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:c:\.nuget\fallbackpackages:ro
+      - C:\Users\rh\onecoremsvsmon:C:\remote_debugger:ro
+#$nuget_volume_mapping_phoenix_core_web$
     entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646
     labels:
       com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages  bin\\Debug\\netcoreapp2.0\\phoenix_core_web.dll"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_phoenix_core_web$ bin\\Debug\\netcoreapp2.0\\phoenix_core_web.dll"
       com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
       com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
 
