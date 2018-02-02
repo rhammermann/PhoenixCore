@@ -12540,15 +12540,12 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Code\\phoenix_core\\phoenix_core_web\\phoenix_core_web.csproj",
+      "projectUniqueName": "C:\\Code\\phoenix_core_docker\\phoenix_core_web\\phoenix_core_web.csproj",
       "projectName": "phoenix_core_web",
-      "projectPath": "C:\\Code\\phoenix_core\\phoenix_core_web\\phoenix_core_web.csproj",
+      "projectPath": "C:\\Code\\phoenix_core_docker\\phoenix_core_web\\phoenix_core_web.csproj",
       "packagesPath": "C:\\Users\\rh\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\phoenix_core\\phoenix_core_web\\obj\\",
+      "outputPath": "C:\\Code\\phoenix_core_docker\\phoenix_core_web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

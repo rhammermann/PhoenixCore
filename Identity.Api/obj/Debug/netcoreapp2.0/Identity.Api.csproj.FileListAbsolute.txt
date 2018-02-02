@@ -9,3 +9,14 @@ C:\Code\phoenix_core\Identity.Api\obj\Debug\netcoreapp2.0\Identity.Api.AssemblyI
 C:\Code\phoenix_core\Identity.Api\obj\Debug\netcoreapp2.0\Identity.Api.AssemblyInfo.cs
 C:\Code\phoenix_core\Identity.Api\obj\Debug\netcoreapp2.0\Identity.Api.dll
 C:\Code\phoenix_core\Identity.Api\obj\Debug\netcoreapp2.0\Identity.Api.pdb
+C:\Code\phoenix_core_docker\Identity.Api\obj\Debug\netcoreapp2.0\Identity.Api.dll
+C:\Code\phoenix_core_docker\Identity.Api\obj\Debug\netcoreapp2.0\Identity.Api.pdb
+C:\Code\phoenix_core_docker\Identity.Api\bin\Debug\netcoreapp2.0\Identity.Api.deps.json
+C:\Code\phoenix_core_docker\Identity.Api\bin\Debug\netcoreapp2.0\Identity.Api.runtimeconfig.json
+C:\Code\phoenix_core_docker\Identity.Api\bin\Debug\netcoreapp2.0\Identity.Api.runtimeconfig.dev.json
+C:\Code\phoenix_core_docker\Identity.Api\bin\Debug\netcoreapp2.0\Identity.Api.dll
+C:\Code\phoenix_core_docker\Identity.Api\bin\Debug\netcoreapp2.0\Identity.Api.pdb
+C:\Code\phoenix_core_docker\Identity.Api\obj\Debug\netcoreapp2.0\Identity.Api.csprojResolveAssemblyReference.cache
+C:\Code\phoenix_core_docker\Identity.Api\obj\Debug\netcoreapp2.0\Identity.Api.csproj.CoreCompileInputs.cache
+C:\Code\phoenix_core_docker\Identity.Api\obj\Debug\netcoreapp2.0\Identity.Api.AssemblyInfoInputs.cache
+C:\Code\phoenix_core_docker\Identity.Api\obj\Debug\netcoreapp2.0\Identity.Api.AssemblyInfo.cs

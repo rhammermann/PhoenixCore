@@ -1,1 +1,2 @@
 C:\Code\phoenix_core\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Code\phoenix_core_docker\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

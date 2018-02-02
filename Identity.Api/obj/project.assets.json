@@ -12540,15 +12540,12 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Code\\phoenix_core\\Identity.Api\\Identity.Api.csproj",
+      "projectUniqueName": "C:\\Code\\phoenix_core_docker\\Identity.Api\\Identity.Api.csproj",
       "projectName": "Identity.Api",
-      "projectPath": "C:\\Code\\phoenix_core\\Identity.Api\\Identity.Api.csproj",
+      "projectPath": "C:\\Code\\phoenix_core_docker\\Identity.Api\\Identity.Api.csproj",
       "packagesPath": "C:\\Users\\rh\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\phoenix_core\\Identity.Api\\obj\\",
+      "outputPath": "C:\\Code\\phoenix_core_docker\\Identity.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

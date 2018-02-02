@@ -18,3 +18,7 @@
 .vs/Supercharger/Contracts.Api/workbench.dat
 .vs/Supercharger/Contracts.Api/global_history.dat
 .vs/Supercharger/Contracts.Api/codemap.dat
+/.vs/phoenix_core/v15/Server/sqlite3/storage.ide-wal
+/.vs/phoenix_core/v15/Server/sqlite3/storage.ide-shm
+.vs/Supercharger/phoenix_core/rich_code_format.dat
+.vs/Supercharger/phoenix_core/code_marker.dat

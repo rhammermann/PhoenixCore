@@ -9,3 +9,14 @@ C:\Code\phoenix_core\phoenix_core_web\obj\Debug\netcoreapp2.0\phoenix_core_web.A
 C:\Code\phoenix_core\phoenix_core_web\obj\Debug\netcoreapp2.0\phoenix_core_web.AssemblyInfo.cs
 C:\Code\phoenix_core\phoenix_core_web\obj\Debug\netcoreapp2.0\phoenix_core_web.dll
 C:\Code\phoenix_core\phoenix_core_web\obj\Debug\netcoreapp2.0\phoenix_core_web.pdb
+C:\Code\phoenix_core_docker\phoenix_core_web\obj\Debug\netcoreapp2.0\phoenix_core_web.dll
+C:\Code\phoenix_core_docker\phoenix_core_web\obj\Debug\netcoreapp2.0\phoenix_core_web.pdb
+C:\Code\phoenix_core_docker\phoenix_core_web\bin\Debug\netcoreapp2.0\phoenix_core_web.deps.json
+C:\Code\phoenix_core_docker\phoenix_core_web\bin\Debug\netcoreapp2.0\phoenix_core_web.runtimeconfig.json
+C:\Code\phoenix_core_docker\phoenix_core_web\bin\Debug\netcoreapp2.0\phoenix_core_web.runtimeconfig.dev.json
+C:\Code\phoenix_core_docker\phoenix_core_web\bin\Debug\netcoreapp2.0\phoenix_core_web.dll
+C:\Code\phoenix_core_docker\phoenix_core_web\bin\Debug\netcoreapp2.0\phoenix_core_web.pdb
+C:\Code\phoenix_core_docker\phoenix_core_web\obj\Debug\netcoreapp2.0\phoenix_core_web.csprojResolveAssemblyReference.cache
+C:\Code\phoenix_core_docker\phoenix_core_web\obj\Debug\netcoreapp2.0\phoenix_core_web.csproj.CoreCompileInputs.cache
+C:\Code\phoenix_core_docker\phoenix_core_web\obj\Debug\netcoreapp2.0\phoenix_core_web.AssemblyInfoInputs.cache
+C:\Code\phoenix_core_docker\phoenix_core_web\obj\Debug\netcoreapp2.0\phoenix_core_web.AssemblyInfo.cs

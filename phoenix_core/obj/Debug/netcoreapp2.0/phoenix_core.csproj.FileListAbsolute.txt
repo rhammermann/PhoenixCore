@@ -9,3 +9,14 @@ C:\Code\phoenix_core\phoenix_core\bin\Debug\netcoreapp2.0\phoenix_core.runtimeco
 C:\Code\phoenix_core\phoenix_core\bin\Debug\netcoreapp2.0\phoenix_core.runtimeconfig.dev.json
 C:\Code\phoenix_core\phoenix_core\bin\Debug\netcoreapp2.0\phoenix_core.dll
 C:\Code\phoenix_core\phoenix_core\bin\Debug\netcoreapp2.0\phoenix_core.pdb
+C:\Code\phoenix_core_docker\phoenix_core\obj\Debug\netcoreapp2.0\phoenix_core.dll
+C:\Code\phoenix_core_docker\phoenix_core\obj\Debug\netcoreapp2.0\phoenix_core.pdb
+C:\Code\phoenix_core_docker\phoenix_core\bin\Debug\netcoreapp2.0\phoenix_core.deps.json
+C:\Code\phoenix_core_docker\phoenix_core\bin\Debug\netcoreapp2.0\phoenix_core.runtimeconfig.json
+C:\Code\phoenix_core_docker\phoenix_core\bin\Debug\netcoreapp2.0\phoenix_core.runtimeconfig.dev.json
+C:\Code\phoenix_core_docker\phoenix_core\bin\Debug\netcoreapp2.0\phoenix_core.dll
+C:\Code\phoenix_core_docker\phoenix_core\bin\Debug\netcoreapp2.0\phoenix_core.pdb
+C:\Code\phoenix_core_docker\phoenix_core\obj\Debug\netcoreapp2.0\phoenix_core.csprojResolveAssemblyReference.cache
+C:\Code\phoenix_core_docker\phoenix_core\obj\Debug\netcoreapp2.0\phoenix_core.csproj.CoreCompileInputs.cache
+C:\Code\phoenix_core_docker\phoenix_core\obj\Debug\netcoreapp2.0\phoenix_core.AssemblyInfoInputs.cache
+C:\Code\phoenix_core_docker\phoenix_core\obj\Debug\netcoreapp2.0\phoenix_core.AssemblyInfo.cs

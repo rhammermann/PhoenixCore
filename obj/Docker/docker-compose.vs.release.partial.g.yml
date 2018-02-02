@@ -3,54 +3,54 @@ version: '3'
 services:
   contracts.api:
     volumes:
-      - C:\Users\rh\onecoremsvsmon:C:\remote_debugger:ro
+      - C:\Users\rh\onecoremsvsmon\15.0.27130.2024:C:\remote_debugger:ro
     entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646
     labels:
       com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
-      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_contracts.api$ Contracts.Api.dll"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages  Contracts.Api.dll"
       com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
       com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
 
   identity.api:
     volumes:
-      - C:\Users\rh\onecoremsvsmon:C:\remote_debugger:ro
+      - C:\Users\rh\onecoremsvsmon\15.0.27130.2024:C:\remote_debugger:ro
     entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646
     labels:
       com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
-      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_identity.api$ Identity.Api.dll"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages  Identity.Api.dll"
       com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
       com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
 
 
   partners.api:
     volumes:
-      - C:\Users\rh\onecoremsvsmon:C:\remote_debugger:ro
+      - C:\Users\rh\onecoremsvsmon\15.0.27130.2024:C:\remote_debugger:ro
     entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646
     labels:
       com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
-      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_partners.api$ Partners.Api.dll"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages  Partners.Api.dll"
       com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
       com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
 
 
   phoenix_core:
     volumes:
-      - C:\Users\rh\onecoremsvsmon:C:\remote_debugger:ro
+      - C:\Users\rh\onecoremsvsmon\15.0.27130.2024:C:\remote_debugger:ro
     entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646
     labels:
       com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
-      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_phoenix_core$ phoenix_core.dll"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages  phoenix_core.dll"
       com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
       com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
 
 
   phoenix_core_web:
     volumes:
-      - C:\Users\rh\onecoremsvsmon:C:\remote_debugger:ro
+      - C:\Users\rh\onecoremsvsmon\15.0.27130.2024:C:\remote_debugger:ro
     entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646
     labels:
       com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
-      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_phoenix_core_web$ phoenix_core_web.dll"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages  phoenix_core_web.dll"
       com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
       com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
 

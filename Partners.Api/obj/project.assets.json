@@ -12540,15 +12540,12 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Code\\phoenix_core\\Partners.Api\\Partners.Api.csproj",
+      "projectUniqueName": "C:\\Code\\phoenix_core_docker\\Partners.Api\\Partners.Api.csproj",
       "projectName": "Partners.Api",
-      "projectPath": "C:\\Code\\phoenix_core\\Partners.Api\\Partners.Api.csproj",
+      "projectPath": "C:\\Code\\phoenix_core_docker\\Partners.Api\\Partners.Api.csproj",
       "packagesPath": "C:\\Users\\rh\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\phoenix_core\\Partners.Api\\obj\\",
+      "outputPath": "C:\\Code\\phoenix_core_docker\\Partners.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
