@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  phoenix_core:
+    image: phoenix_core
+    build:
+      context: .
+      dockerfile: phoenix_core\Dockerfile
+
+  identity.api:
+    image: identity.api
+    build:
+      context: .
+      dockerfile: Identity.Api\Dockerfile
+
+
+  contracts.api:
+    image: contracts.api
+    build:
+      context: .
+      dockerfile: Contracts.Api\Dockerfile
+
+
+  partners.api:
+    image: partners.api
+    build:
+      context: .
+      dockerfile: Partners.Api\Dockerfile
+
+
+  phoenix_core_web:
+    image: phoenix_core_web
+    build:
+      context: .
+      dockerfile: phoenix_core_web\Dockerfile
+

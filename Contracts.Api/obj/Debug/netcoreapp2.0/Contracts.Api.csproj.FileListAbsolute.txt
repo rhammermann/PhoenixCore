@@ -1,0 +1,11 @@
+C:\Code\phoenix_core\Contracts.Api\bin\Debug\netcoreapp2.0\Contracts.Api.deps.json
+C:\Code\phoenix_core\Contracts.Api\bin\Debug\netcoreapp2.0\Contracts.Api.runtimeconfig.json
+C:\Code\phoenix_core\Contracts.Api\bin\Debug\netcoreapp2.0\Contracts.Api.runtimeconfig.dev.json
+C:\Code\phoenix_core\Contracts.Api\bin\Debug\netcoreapp2.0\Contracts.Api.dll
+C:\Code\phoenix_core\Contracts.Api\bin\Debug\netcoreapp2.0\Contracts.Api.pdb
+C:\Code\phoenix_core\Contracts.Api\obj\Debug\netcoreapp2.0\Contracts.Api.csprojResolveAssemblyReference.cache
+C:\Code\phoenix_core\Contracts.Api\obj\Debug\netcoreapp2.0\Contracts.Api.csproj.CoreCompileInputs.cache
+C:\Code\phoenix_core\Contracts.Api\obj\Debug\netcoreapp2.0\Contracts.Api.AssemblyInfoInputs.cache
+C:\Code\phoenix_core\Contracts.Api\obj\Debug\netcoreapp2.0\Contracts.Api.AssemblyInfo.cs
+C:\Code\phoenix_core\Contracts.Api\obj\Debug\netcoreapp2.0\Contracts.Api.dll
+C:\Code\phoenix_core\Contracts.Api\obj\Debug\netcoreapp2.0\Contracts.Api.pdb
