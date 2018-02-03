@@ -15,6 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Partners.Api", "Partners.Ap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "phoenix_core_web", "phoenix_core_web\phoenix_core_web.csproj", "{5347DC75-B5BA-4E18-8283-018970700858}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabbitMQ", "RabbitMQ", "{9ADED9CB-9F98-4301-82FD-BB908DED827F}"
+	ProjectSection(SolutionItems) = preProject
+		RabbitMQ\Dockerfile = RabbitMQ\Dockerfile
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

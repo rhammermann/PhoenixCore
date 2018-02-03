@@ -32,3 +32,9 @@ Identity.Api/obj/Debug/netcoreapp2.0/Identity.Api.AssemblyInfo.cs
 Contracts.Api/obj/Debug/netcoreapp2.0/Contracts.Api.AssemblyInfo.cs
 phoenix_core_web/obj/Debug/netcoreapp2.0/phoenix_core_web.AssemblyInfo.cs
 Partners.Api/obj/Debug/netcoreapp2.0/Partners.Api.AssemblyInfo.cs
+phoenix_core_web/obj/project.assets.json
+obj/Docker/docker-compose.vs.debug.partial.g.yml
+obj/Docker/docker-compose.vs.release.partial.g.yml
+Partners.Api/obj/project.assets.json
+Identity.Api/obj/project.assets.json
+Contracts.Api/obj/project.assets.json
