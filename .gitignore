@@ -22,3 +22,9 @@
 /.vs/phoenix_core/v15/Server/sqlite3/storage.ide-shm
 .vs/Supercharger/phoenix_core/rich_code_format.dat
 .vs/Supercharger/phoenix_core/code_marker.dat
+phoenix_core/.vs/Supercharger/phoenix_core/workbench.dat
+phoenix_core/.vs/Supercharger/phoenix_core/global_history.dat
+obj/Docker/docker-compose.vs.debug.g.yml
+phoenix_core/.vs/config/applicationhost.config
+phoenix_core/.vs/Supercharger/phoenix_core/codemap.dat
+obj/Docker/docker-compose.vs.release.g.yml
