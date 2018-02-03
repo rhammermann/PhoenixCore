@@ -28,3 +28,7 @@ obj/Docker/docker-compose.vs.debug.g.yml
 phoenix_core/.vs/config/applicationhost.config
 phoenix_core/.vs/Supercharger/phoenix_core/codemap.dat
 obj/Docker/docker-compose.vs.release.g.yml
+Identity.Api/obj/Debug/netcoreapp2.0/Identity.Api.AssemblyInfo.cs
+Contracts.Api/obj/Debug/netcoreapp2.0/Contracts.Api.AssemblyInfo.cs
+phoenix_core_web/obj/Debug/netcoreapp2.0/phoenix_core_web.AssemblyInfo.cs
+Partners.Api/obj/Debug/netcoreapp2.0/Partners.Api.AssemblyInfo.cs
