@@ -21,10 +21,10 @@ RUN @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object Sy
 RUN choco install -y rabbitmq
 
 #set up the path to the config file
-#ENV RABBITMQ_CONFIG_FILE "C:\rabbitmq"
+ENV RABBITMQ_CONFIG_FILE "C:\rabbitmq"
 
 #copy a config file over
-#COPY ["rabbitmq.config"," C:/"]
+COPY ["rabbitmq.config"," C:/"]
 
 #set the startup command to be rabbit
-CMD ["C:/Program Files/RabbitMQ Server/rabbitmq_server-3.6.5/sbin/rabbitmq-server.bat"]
+CMD ["C:/Program Files/RabbitMQ Server/rabbitmq_server-3.6.14/sbin/rabbitmq-server.bat"]
